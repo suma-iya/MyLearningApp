@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.one.Comments"
+    android:padding="10dp"
+    android:background="#B5FFF6">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ Comments"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In C++, comments are used to provide explanations and descriptions within the code. Comments are not executed by the compiler and are purely for documentation purposes."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ supports two types of comments:"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent1"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewSubTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Single-line comments"
+        android:textSize="26sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent2"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single-line comments are denoted by double slashes (//). Everything on the same line after // is treated as a comment and is not executed."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitle1"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textViewSubTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Multi-line comments"
+        android:textSize="26sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent3"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multi-line comments are enclosed within /* and */. Anything between these symbols is considered a comment and is not executed."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSubTitle2"
+        android:layout_marginTop="10dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

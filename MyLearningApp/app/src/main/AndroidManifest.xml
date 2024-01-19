@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/coding_icon_512x512_meh6kfr7"
+        android:label="CodeVerse"
+        android:roundIcon="@drawable/coding_icon_512x512_meh6kfr7"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        tools:targetApi="34">
+        <activity
+            android:name=".ChatGPTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsDisplayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LanguageDetails"
+            android:exported="false" />
+        <activity
+            android:name=".JsonMain"
+            android:exported="false" />
+        <activity
+            android:name=".Entry"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.Score"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.Jerror"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.Date"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.Jbigint"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.Jatomics"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.JArrayBuffer"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.Array"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Pexception"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.ObjectOriented"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Controlflow"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Poperators"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Pvariable"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Pdatatype"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Inputooutput"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.four.Pythonbas"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.Loops"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.Operatorsja"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.Keyword"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.Varjava"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.DataTy"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.CommentsInJava"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.JavaBasic"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.three.Javapro"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Uninitialized_Variable"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Variable_scope"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Variables"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Data_types"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Comments"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Input"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.BasicSyntax"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.Introduction"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.StarQuiz"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.code.CodeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.code.CodeCategory"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.python"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.five.HTML"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.two.php"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.five.android"
+            android:exported="false" />
+        <activity
+            android:name=".chapter.one.JAVA"
+            android:exported="false" />
+        <activity
+            android:name=".chaptertopics.TopicActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

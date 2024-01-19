@@ -1,0 +1,33 @@
+<!-- res/layout/activity_language_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".LanguageDetails"
+    android:background="#272452">
+
+    <TextView
+        android:id="@+id/listii"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FED8D8"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="Documentation"
+        android:textColor="#272452"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:background="#FED8D8"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/listii"
+        android:id="@+id/detailsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="#272452"
+        android:dividerHeight="4dp"
+        android:foregroundGravity="center"/>
+</RelativeLayout>

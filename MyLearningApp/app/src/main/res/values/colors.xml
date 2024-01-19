@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define custom colors -->
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorText">#000000</color>
+    <color name="colorButton">#009688</color>
+    <color name="colorDivider">#B6B6B6</color>
+
+    <!-- Define transparent colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semiTransparent">#80000000</color>
+    <color name="veryTransparent">#33000000</color>
+</resources>

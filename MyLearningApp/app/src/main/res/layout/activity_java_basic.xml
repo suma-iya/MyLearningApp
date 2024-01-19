@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.three.JavaBasic"
+    android:padding="10dp"
+    android:background="#FFFDB4">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Java Basics"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewIntroduction"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Java is a popular programming language that is known for its portability and versatility. It is widely used for building a wide range of applications, from web applications to mobile apps and even enterprise-level software."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewSyntax"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Java Syntax:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewSyntaxDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Java uses a simple, clean, and easy-to-read syntax that makes it an ideal choice for beginners. It is based on classes and objects, and everything in Java is part of a class."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewSyntax"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewVariables"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Variables and Data Types:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewSyntaxDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewVariablesDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Java supports various data types, including int, double, char, boolean, etc. Variables are used to store data, and you must declare the data type of the variable before using it."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewVariables"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewControlFlow"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Control Flow:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewVariablesDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewControlFlowDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Java provides various control flow statements, including if-else, switch, for, while, and do-while loops, to control the flow of a program."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewControlFlow"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<!-- You can continue adding more content here to explain Java basics further. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

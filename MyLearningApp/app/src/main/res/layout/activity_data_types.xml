@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.one.Data_types"
+    android:padding="10dp"
+    android:background="#E38A5D">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++ Data Types"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="In C++, data types specify the type of data that a variable can hold. Here are some common data types in C++:"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="1. int: Represents integer values, e.g., 1, -5, 1000."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2. double: Represents floating-point values, e.g., 3.14, -0.5, 10.0."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="3. char: Represents single characters, e.g., 'A', '5', '$'."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="4. bool: Represents Boolean values, either true or false."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<!-- activity_details_display.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsDisplayActivity"
+   android:paddingHorizontal="20dp"
+    android:paddingVertical="40dp"
+    android:background="#E0DEDA">
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="20dp"
+        android:background="#25345A"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Details"
+        android:textColor="#FFF1E9"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_below="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFF1E9"
+        android:background="#30669B"/>
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.one.Input"
+    android:padding="10dp"
+    android:background="#EC736E">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Input and Output in C++"
+        android:textSize="27sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="In C++, you can perform input and output operations using the standard input/output streams, which are cin and cout."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Basic Input (cin):"
+        android:textSize="26sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="You can use 'cin' to read data from the user. For example, to read an integer, you can use 'cin >> variable_name;' where 'variable_name' is the name of the variable in which you want to store the input."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Basic Output (cout):"
+        android:textSize="26sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="You can use 'cout' to display output to the user. For example, to display a message, you can use 'cout &lt;&lt; (text you want to show) ' or to display the value of a variable, use 'cout &lt;&lt; variable_name;'"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

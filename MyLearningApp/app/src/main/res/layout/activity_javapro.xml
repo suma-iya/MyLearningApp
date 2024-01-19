@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="10dp"
+tools:context=".chapter.three.Javapro"
+    android:gravity="center"
+    android:background="#C2B7E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Java Programming"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="Java is a high-level, object-oriented programming language that is widely used for developing a variety of applications, including web, mobile, and desktop applications." />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="Key features of Java include platform independence, strong typing, automatic memory management (garbage collection), and a large standard library." />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="Java applications are typically written in the form of classes and objects, following the principles of object-oriented programming (OOP)." />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="Java code is compiled into bytecode, which can run on any Java Virtual Machine (JVM), making it platform-independent." />
+
+</LinearLayout>

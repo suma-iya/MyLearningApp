@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.two.Array"
+    android:padding="10dp"
+    android:background="#E4F391">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Arrays in JavaScript"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"
+    />
+
+<TextView
+    android:id="@+id/textViewIntroduction"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Arrays are a fundamental data structure in JavaScript used to store multiple values within a single variable. They are a versatile and powerful tool for working with collections of data."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsage"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Usage:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsageDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="To use arrays in JavaScript, you can create an array and add elements to it using various methods. Arrays can store different data types and can be accessed using indexes."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsage"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExamples"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Examples:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsageDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExample1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="1. Creating an Array"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewExamples"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/textViewExample2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="2. Adding Elements to an Array"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewExample1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<!-- You can add more content or examples to explain Arrays in JavaScript as needed. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

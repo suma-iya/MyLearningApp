@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.two.Date"
+    android:padding="10dp"
+    android:background="#D4FAFA">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Date Object in JavaScript"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewIntroduction"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="The Date object is used in JavaScript to work with dates and times. It provides methods for creating, formatting, and manipulating dates."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsage"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Usage:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsageDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="You can create a Date object, which represents the current date and time, or specify a specific date and time. You can then use various methods to get or set different parts of the date, such as year, month, day, and time."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsage"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExamples"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Examples:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsageDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExample1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="1. Creating a Date Object"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewExamples"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/textViewExample2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="2. Getting the Current Date and Time"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewExample1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<!-- You can add more content or examples to explain the Date object in JavaScript as needed. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

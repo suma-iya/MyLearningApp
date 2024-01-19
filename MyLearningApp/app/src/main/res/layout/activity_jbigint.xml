@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.two.Jbigint"
+    android:padding="10dp"
+    android:background="#C2F0BD">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BigInt in JavaScript"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewIntroduction"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="In JavaScript, BigInt is a built-in object that provides a way to represent and work with arbitrarily large integers. It is often used when you need to perform operations on numbers that exceed the limits of standard JavaScript numbers (Number)."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewDeclaration"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Declaration and Usage:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewDeclarationDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="To declare a BigInt, you can append 'n' to the end of an integer literal or use the 'BigInt()' constructor. For example:"
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewDeclaration"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExample1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="const bigIntValue = 1234567890123456789012345678901234567890n;"
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewDeclarationDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewExample2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="const anotherBigInt = BigInt('9007199254740992');"
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewExample1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<!--<TextView-->
+<!--    android:id="@+id/textViewOperations"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="Basic Operations:"-->
+<!--    android:textSize="26sp"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/textViewExample2"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    android:layout_marginTop="16dp" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textViewOperationsDescription"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="You can perform basic arithmetic operations with BigInt values just like you do with standard numbers. For example, addition, subtraction, multiplication, and division:"-->
+<!--    android:textSize="22sp"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/textViewOperations"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    android:layout_marginTop="16dp" />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/textViewOperationsExample"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:text="const result = bigIntValue + anotherBigInt;"-->
+<!--    android:textSize="22sp"-->
+<!--    app:layout_constraintTop_toBottomOf="@+id/textViewOperationsDescription"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"-->
+<!--    android:layout_marginTop="8dp" />-->
+
+<!-- You can add more content to explain BigInt in JavaScript as needed. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

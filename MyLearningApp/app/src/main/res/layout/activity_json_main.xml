@@ -1,0 +1,57 @@
+<!-- res/layout/activity_json_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".JsonMain"
+    android:gravity="center"
+    android:background="#F0BAC8">
+
+    <TextView
+        android:id="@+id/countryhead"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background=" #E4E7EB"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Programming Languages "
+        android:textColor="#444974"
+        android:textColorHint="@color/design_default_color_error"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:transitionName="logo_text"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/languageListView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/countryhead"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="#957DAD"
+        android:clipToPadding="false"
+        android:divider="#272452"
+        android:dividerHeight="3dp"
+        android:foregroundGravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/languageListView"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/why_you_should_learn_to_code"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.two.Jatomics"
+    android:background="#67D19F">
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Atomics in JavaScript"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewIntroduction"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="In JavaScript, Atomics is an object that provides atomic operations and ensures consistent memory access in a multi-threaded environment. It is often used when working with Web Workers and shared memory."
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsage"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Usage:"
+    android:textSize="26sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewUsageDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="To use Atomics in JavaScript, you can perform various atomic operations on shared memory locations using the Atomics object. These operations include:"
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsage"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/textViewOperationsList"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="1. add()"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewUsageDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/textViewOperationsList2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="2. and()"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewOperationsList"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<TextView
+    android:id="@+id/textViewOperationsList3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="3. or()"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/textViewOperationsList2"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="8dp" />
+
+<!-- You can add more content to explain Atomics in JavaScript as needed. -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

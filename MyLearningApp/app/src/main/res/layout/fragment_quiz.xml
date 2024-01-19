@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.QuizFragment"
+    android:background="#957DAD">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:src="@drawable/quiz"
+        android:layout_marginBottom="30dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/play_quiz"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="116dp"
+        android:padding="12dp"
+        android:text="Start Quiz"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:backgroundTint="#ffffff"
+        android:textColor="#3c3b6e"/>
+</RelativeLayout>

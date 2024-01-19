@@ -1,0 +1,46 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".chapter.one.Introduction"
+    android:padding="10dp"
+    android:background="#FFCCCC">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has imperative, object-oriented, and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac, etc."
+        android:textSize="22sp"
+        android:layout_marginTop="17dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="To make it easy to understand, let’s consider this scenario – when we go to the Google search engine and search for some queries, Google displays some websites according to our question. Google does this for us at a very high level. We don’t know what’s happening at the low level until we look into Google servers (at a low level) and further to the level where the data is in the form of 0s/1s."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="565dp"
+        android:textSize="22sp"
+        android:text="C ++ is considered a low-level language as it is closer to hardware than most general-purpose programming languages. However to become proficient in any programming language, one Firstly needs to understand the basics of that language."/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout >

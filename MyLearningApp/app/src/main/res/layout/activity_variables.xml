@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.one.Variables"
+    android:background="#A4E3C5"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++ Variables"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="In C++, variables are used to store data. A variable is defined by specifying its data type and a name. Here's how you declare a variable:"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="int age; // Declares an integer variable 'age'"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="double salary; // Declares a double variable 'salary'"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="char grade; // Declares a character variable 'grade'"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewContent5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="bool isPassed; // Declares a boolean variable 'isPassed'"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

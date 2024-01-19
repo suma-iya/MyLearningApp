@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".chapter.two.Jerror"
+    android:background="#F8CECA"
+    android:padding="10dp">
+
+<TextView
+    android:id="@+id/errorTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="JavaScript Error"
+    android:textSize="30sp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"
+    android:textStyle="bold"
+    />
+
+<TextView
+    android:id="@+id/errorDescription"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="An error occurred while executing JavaScript code in the application. Please see the details below:"
+    android:textSize="22sp"
+    app:layout_constraintTop_toBottomOf="@+id/errorTitle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<TextView
+    android:id="@+id/errorDetails"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Error Message: [Error Message]"
+    android:textSize="20sp"
+    app:layout_constraintTop_toBottomOf="@+id/errorDescription"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp" />
+
+<!-- Add more TextViews for displaying additional error details if needed -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

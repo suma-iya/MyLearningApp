@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter.one.BasicSyntax"
+    android:padding="10dp"
+    android:background="#FEC8D8">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ Basic Syntax"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewContent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ is a general-purpose programming language known for its rich set of features. It follows a specific syntax that you need to understand to write C++ programs."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/textViewContent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ code is organized into functions, and each program must have a main function where execution begins. Functions are defined using the 'function return_type function_name(parameters)' syntax."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent1"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewContent3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ statements are terminated with a semicolon (;), and comments can be added using double slashes (//) or enclosed within /* */. Variables must be declared with a data type before use."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent2"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/textViewContent4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++ is case-sensitive, which means 'variableName' and 'variablename' are treated as different variables. It supports various data types such as int, float, double, and char."
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent3"
+        android:layout_marginTop="20dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
